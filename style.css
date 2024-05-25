@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+nav h3{
+    font-size: 26px;
+    cursor: pointer;
+}
+nav h3 span{
+    color: red;
+}
+nav{
+    width: 95%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul{
+    display: flex;
+    padding-right: 40px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a:hover{
+    color: red;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.main{
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.info p span{
+    color: red;
+}
+.info p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.link a img{
+    margin-top: 20px;
+    width: 50px;
+}
+.photo img{
+    width: 260px;
+    border-radius: 25px;
+}
+.skill-icon{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.skill-icon h4{
+    font-size: 20px;
+}
+.skill-icon img{
+    width: 40px;
+    margin: 25px;
+}
+
+/* About-me */
+.about-me{
+    height: 100vh;
+}
+.about-me h5{
+    text-align: center;
+    font-size: 22px;
+    color: red;
+}
+.aboutme-photo img{
+    width: 350px;
+}
+.aboutme{
+   max-width:  600px;
+}
+.aboutme p span{
+    color: red;
+}
+.aboutme h4{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.aboutme button{
+    font-size: 13px;
+    padding: 9px 35px;
+    background-color: red;
+    color: #fff;
+    outline:  none;
+    border: none;
+    border-radius: 10px;
+}
+.aboutme button:hover{
+    background-color: #000;
+}
+.aboutme p{
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+.inner-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  30px 0;
+}
+
+/* Skills */
+
+.skill-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+.skill-box h2{
+    /* width: 25px; */
+    color: red;
+}
+.skill-list{
+    display: flex;
+    justify-content: space-around;
+}
+.skill-list p{
+    margin-left: 40px;
+    background-color: rgb(224, 219, 219);
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.skill-list p:hover{
+    background-color: red;
+    color: #fff;
+}
+
+/* Project */
+.project-box h5{
+    text-align: center;
+    font-size: 22px;
+    color: red;
+    margin-bottom: 60px;
+}
+.details h4{
+    margin: 15px 0;
+    font-size: 20px;
+}
+.project-box h3{
+    text-align: center;
+    padding: 50px 0;
+    color: red;
+}
+.project-box img{
+    width: 500px;
+    border-radius: 20px;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+.details{
+    width: 350px;
+    text-align: center;
+}
+.details p{
+    font-size: 16px;
+}
+.code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.code:hover{
+    font-size: 14px;
+    background-color: red;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+.code img{
+    width: 35px;
+}
+.live-demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.live-demo:hover{
+    font-size: 14px;
+    background-color: red;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+.live-demo img{
+    width: 25px;
+}
+.links{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* Contact-box */
+
+.contact-box h5{
+    text-align: center;
+    font-size: 22px;
+    color: red;
+    margin: 60px 0;
+}
+.contactBox1 h4{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0 ;
+    color: red;
+}
+.contactBox1 p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.contactBox1{
+    width: 30%;
+}
+.contactBox2{
+    padding-top: 30px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-details{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 4px;
+}
+.contact-details p{
+    padding-left: 20px;
+}
+.contact-details img{
+    width: 20px;
+}
+.contactBox2 label{
+    font-size: 15px;
+}
+.contactBox2 input{
+    width: 500px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: lightgrey;
+}
+.contactBox2 textarea{
+    width: 500px;
+    background: lightgray;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+}
+.contactBox2 button{
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: red;
+    color: #fff;
+}
+.contactBox2 button:hover{
+    background-color: #000;
+}
+form label, input, textarea{
+    margin: 5px 0;
+}
+
+/* footer */
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+.social-links a img{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.Terms{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+}
+.Terms p{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
